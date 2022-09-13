@@ -3,7 +3,10 @@
     xmlns="sap.m">
     <Page id="page" title="{i18n>title}">
         <content>
-            <Title text="Hola mundo!!!"></Title>
+            <VBox>
+                <Title text="Hola mundo!!!"></Title>
+                <Title text="{Datos>/Description}"></Title>
+            </VBox>
         </content>
     </Page>
 </mvc:View>
